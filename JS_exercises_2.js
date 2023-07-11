@@ -60,3 +60,25 @@
 
 // -----------------------------------------------------------------------------------------
 
+// Basic implementation of functions between html and js indexes
+
+// let [insert creative name here] = document.getElementById(["id in html in string notation"])
+
+// function([creative name, place in html as a function]) {
+    // [insert creative name here].textContent = "string"
+// }
+
+// -----------------------------------------------------------------------------------------
+
+// 1. Create two variables, firstCard and secondCard. 
+// Set their values to a random number between 2-11
+
+// let firstCard = 4
+
+// let secondCard = 7
+
+// // 2. Create a variable, sum, and set it to the sum of the two cards
+
+// let sum = firstCard + secondCard
+
+// console.log(sum)
