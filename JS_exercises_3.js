@@ -47,3 +47,18 @@
 // } else {
 //     console.log("Not elegible, you have already gotten one")
 // }
+
+// can place booleans in if else as a conditional. example
+// if (false or true) {
+    // function
+// }
+
+// see below for boolean practice:
+
+// console.log(4 === 3)  // false
+// console.log(5 > 2)    // true
+// console.log(12 > 12)  // false
+// console.log(3 < 0)    // false
+// console.log(3 >= 3)   // true
+// console.log(11 <= 11) // true
+// console.log(3 <= 2)   // false
