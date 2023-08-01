@@ -42,3 +42,21 @@ for (let i = 0; i < sentence.length; i++) {
 for (let i = 10; i < 101; i += 10) {
     console.log(i)
 }
+
+// returning values in functions
+let player1Time = 102
+let player2Time = 107
+
+function getFastestRaceTime() {
+    if (player1Time < player2Time) {
+        return player1Time
+    } else if (player2Time < player1Time) {
+        return player2Time
+    } else {
+        return player1Time
+    }
+}
+
+// we are going to make this the result of invoking the above function
+let fastestRace = getFastestRaceTime()
+console.log(fastestRace)
