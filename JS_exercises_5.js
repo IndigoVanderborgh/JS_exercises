@@ -42,7 +42,7 @@ for (let i = 0; i < sentence.length; i++) {
 for (let i = 10; i < 101; i += 10) {
     console.log(i)
 }
-
+// end of arrays for now, moving to return
 // returning values in functions
 let player1Time = 102
 let player2Time = 107
@@ -58,5 +58,22 @@ function getFastestRaceTime() {
 }
 
 // we are going to make this the result of invoking the above function
-let fastestRace = getFastestRaceTime()
-console.log(fastestRace)
+// fastestRace is made up here to console log the function. 
+// the value of fastestRace will be whatever the function will return, in which case
+// it would be player1Time
+
+// let fastestRace = getFastestRaceTime()
+// console.log(fastestRace)
+
+// Write a function that returns the total race time
+function getTotalRaceTime {
+    return player1Time + player2Time
+}
+
+let totalTime = getTotalRaceTime()
+
+console.log(totalTime)
+
+// Call/invoke the function and store the returned value in a new variable
+
+// Finally, log the variable out
